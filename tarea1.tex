@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2.5cm,
+			top=2.5cm,
+			right=2.5cm,
+			bottom=3cm]{geometry}
+\pagenumbering{gobble}
+
+%Materia y maestro
+\newcommand{\materia}{\uppercase{Amplificadores Operacionales}}
+\newcommand{\maestro}{\uppercase{María De Los Ángeles Fabián Álvarez}}
+
+%Tipo de documento y nombres de tema
+\newcommand{\tipoDoc}{\uppercase{}} %TAREA, REPORTE DE LABORATORIO,
+\newcommand{\nombreDoc}{\uppercase{Investigación}} 
+\newcommand{\docNum}{}
+\newcommand{\subNombreDoc}{\uppercase{Características de los circuitos integrados LM324 y TL084}}
+
+%Alumnos y fecha
+\newcommand{\alumnos}{\uppercase{GABRIEL AGUILAR LEMUS \\ Jorge Alberto Ochoa López}}
+\newcommand{\fecha}{\uppercase{13 de Septiembre de 2017}}
+
+
+\begin{document}
+	%Cabezal del membrete
+	
+	\includegraphics[scale=.5, center]{/home/gabriel/LATEX/PortadaOficial/encabezado.png}
+	\centering{
+		\huge INSTITUTO TECNOLÓGICO DE MORELIA \\
+		\vfill
+		\large DIVISIÓN DE ESTUDIOS PROFESIONALES  \\
+		\vfill
+		\large  DEPARTAMENTO DE INGENIERÍA ELECTRÓNICA \\ 
+		\vfill
+		\Large \textbf \materia \\
+		\vfill
+		\textbf{\tipoDoc} \\
+		\vfill 
+		\LARGE  \textbf{ \nombreDoc  \, \docNum: \\ \subNombreDoc} \\
+		\vfill
+		\large PRESENTA(N): \\
+		\LARGE  \textbf{\alumnos} \\
+		\vfill
+		\large PROFESORA: \\
+		\Large \textbf{\maestro }
+	}
+	\vfill 
+	\begin{flushleft}
+		MORELIA, MICHOACÁN \hfill \uppercase{\fecha}
+	\end{flushleft}
+	\pagebreak
+	
+
+\end{document}
+
